@@ -2,8 +2,8 @@ import { useContext, useState } from "react";
 import classes from "./cart.module.css";
 import Modal from "../UI/modal";
 import CartItem from "./cartItem";
-import CartContext from "../../store/cart-context";
 import Checkout from "./checkout";
+import CartContext from "../../store/cart-context";
 
 const Cart = props => {
     const [isCheckout,setIsCheckout] = useState(false);
